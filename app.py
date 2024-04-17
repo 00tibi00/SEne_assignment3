@@ -1056,6 +1056,7 @@ def generate_graph_and_table_layout(graph_fig, df,table_id, ):
 
 #PLOTLY DASH---------------------------------------------------------------
 app = Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=['costumstyle.css'])
+server = app.server
 
 app.layout = html.Div(
     children=[
