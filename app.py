@@ -1340,4 +1340,4 @@ def render_content(tab, switch_value, clickData):
         return html.Div([])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
