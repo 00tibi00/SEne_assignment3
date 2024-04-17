@@ -1,0 +1,199 @@
+@font-face {
+    font-family: FONTJERSEY;
+    src: url('Jersey20-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: HONK;
+    src: url('Honk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NABLA;
+    src: url('Nabla-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Honkvar';
+  src: url('Honk-Regular-VariableFont.ttf') format('truetype'); 
+
+}
+
+@keyframes fontAnimation {
+  0% {
+    font-variation-settings: 
+      "MORF" 0,
+      "SHLN" 0;
+  }
+  100% {
+    font-variation-settings: 
+      "MORF" 25,
+      "SHLN" 20;
+  }
+}
+
+.animated-text1 {
+  font-family: 'Honkvar';
+  font-size: 50px;
+  animation: fontAnimation 6s infinite alternate; 
+}
+
+
+.custom-text1 {
+    font-family: 'FONTJERSEY', sans-serif;
+    color: #FF69B4;  
+    font-size: 40px;
+}
+
+.custom-text2 {
+    font-family: 'HONK', sans-serif;
+    font-size: 60px; /* Adjust the font size as needed */
+}
+
+.custom-text3 {
+    font-family: 'NABLA', sans-serif;
+    font-size: 60px; /* Adjust the font size as needed */
+}
+
+
+.custom-variable-text1 {
+    font-family: 'CustomVariableFont', sans-serif;
+    font-size: 50px; /* Adjust the font size as needed */
+    color: #000000; /* Adjust the color as needed */
+    font-variation-settings: 'Morph' 10, 'Shadow' 50; 
+}
+
+
+.custom-tabs-container {
+    width: 100%;
+    border-radius: 100px; 
+}
+
+.custom-tabs {
+    color: hotpink;
+    padding: 0px 10px;
+    padding-right: 30px;
+}
+
+.custom-tab {
+    background-color: hotpink; 
+    color: hotpink;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 3px  !important;
+    border-left: 3px !important;
+    border-right: 3px !important;
+    border-bottom: 3px !important;
+    padding: 10px !important;
+    font-family: "Raleway";
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-tab--selected {
+    color: hotpink;    
+    border-left: 6px solid hotpink !important;
+    border-right: 6px solid hotpink !important;
+    border-top: 6px solid hotpink !important;
+    border-bottom: 6px solid hotpink !important;
+    background-color: #211C6A; 
+    overflow: hidden;
+}
+
+.regression-graph {
+  width: 95%;
+  height: 800px;
+  margin:30px;
+  overflow: hidden;
+  border: 0px;
+  padding-right: 0px;
+  padding: 10px ;
+}
+
+
+/* Style for tabs-content-classes */
+#tabs-content-classes { 
+    padding: 0px;
+    color: hotpink;    
+    border-left: 6px solid #211C6A ;
+    border-right: 6px solid #211C6A ;
+    border-top: 6px solid #211C6A ;
+    border-bottom: 6px solid #211C6A
+    margin-bottom: 0px;
+}
+
+/* Style for table-switch */
+#table-switch {
+  margin-top: 10px;
+}
+
+.container input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100px; /* 3 times smaller */
+  height:100px; /* 3 times smaller */
+  border: 22px solid #94B1FF; /* 3 times thinner border */
+  outline: none;
+  cursor: pointer;
+  background-color: pink;
+}
+
+.container input[type="checkbox"]:checked {
+  background-color: pink;
+}
+
+.container input[type="checkbox"]::before {
+  content: "";
+  display: block;
+  width: 24px; /* 3 times smaller */
+  height: 20px; /* 3 times smaller */
+  margin: 0px; /* 3 times smaller margin */
+  border-radius: 24px; /* 3 times smaller border-radius */
+  background-color: #fffff ;
+  border: 6px solid #fffff; /* 3 times thinner border */
+  visibility: visible;
+}
+
+.container input[type="checkbox"]:checked::before {
+  content: "✔";
+  color: green;
+  font-size: 55px;
+  line-height: 10px; 
+}
+
+
+.graph-and-table-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.regression2-graph {
+    width: 95%;
+    height: 800px;
+    margin: 30px;
+    overflow: hidden;
+    border: 0px;
+    padding-right: 0px;
+    padding: 10px;
+}
+
+.table {
+    width: 70%; /* Adjust width as needed */
+    max-height: 400px; /* Adjust max-height as needed */
+    overflow-y: auto; /* Enable vertical scroll if needed */
+    margin-left: auto; /* Push the table to the right side */
+}
