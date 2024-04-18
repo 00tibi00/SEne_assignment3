@@ -30,7 +30,7 @@ pyparsing==3.1.2
 pyproj==3.6.1
 PyQt5==5.15.10
 PyQtWebEngine==5.15.6
-pywin32==305.1
+pywin32==305.1; platform_system=="Windows"
 retrying==1.3.4
 scikit-learn==1.4.2
 scipy==1.13.0
