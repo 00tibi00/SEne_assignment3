@@ -16,5 +16,7 @@ Thibaud Didier van Eupen did the dashboard and Katharina Zimmer did the code for
 
 Sources:
 Weather Data: https://meteostat.net/de/place/dk/copenhagen?s=06180&t=2017-01-01/2017-12-31
+
 Emissions per Hour: https://www.energidataservice.dk/tso-electricity/DeclarationEmissionHour
+
 Yearly Energy Data Denmark: https://github.com/owid/energy-data?tab=readme-ov-file
