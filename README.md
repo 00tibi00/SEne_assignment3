@@ -16,6 +16,8 @@ This Project was done by Thibaud Didier van Eupen and Katharina Zimmer.
 We did the forecast of the CO2 emissions for two price areas in denmark.
 Thibaud Didier van Eupen did the dashboard and Katharina Zimmer did the code for the regression models including feature selection and data collection.
 
+Videoproof of the dashboard working on and offline can be found: https://drive.google.com/drive/folders/1Yzo5KwOYuEALjI3ZVsNxEPkU3phGI7g5?usp=drive_link
+
 Sources:
 Weather Data: https://meteostat.net/de/place/dk/copenhagen?s=06180&t=2017-01-01/2017-12-31
 
