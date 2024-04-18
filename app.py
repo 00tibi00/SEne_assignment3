@@ -1059,6 +1059,8 @@ app = Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=['c
 server = app.server
 
 app.layout = html.Div(
+    children[
+    html.Div(
     children=[
         html.H1(
             children='Denmark next day prediction for the CO2 emissions for electricity',
@@ -1338,6 +1340,8 @@ def render_content(tab, switch_value, clickData):
             return html.Div([])
     else:
         return html.Div([])
-
+    ],
+    style={"zoom": "80%"} 
+)
 if __name__ == '__main__':
     app.run_server()
