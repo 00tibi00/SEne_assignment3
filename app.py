@@ -1341,7 +1341,7 @@ def render_content(tab, switch_value, clickData):
     else:
         return html.Div([])
     ],
-    style={"zoom": "80%"} 
+    style={"zoom": "50%"} 
 )
 if __name__ == '__main__':
     app.run_server()
