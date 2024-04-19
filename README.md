@@ -5,6 +5,7 @@ Hey,
 Welcome to our dashboard :)
 
 LINK: https://co2-emission-predictions-of-denmark.onrender.com/
+
 (If the dashboard does not look good: press cntrl - to zoom out to 50%)
 
 Our dashboard offers a forecast of CO2 emissions per kWh for the electricity grid in Denmark for the year 2022, utilizing weather data. 
